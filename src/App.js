@@ -81,3 +81,6 @@ function App() {
 }
 
 export default App;
+
+//https://stackoverflow.com/questions/52022197/how-do-i-get-my-gh-pages-branch-to-update
+//To update build folder
