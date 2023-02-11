@@ -23,15 +23,18 @@ function App() {
   const validate=()=>{
     if(input1===''){
        setValidate('Error : Num1 cannot be empty');
+       setShowResult(false)
        return false;
     }
     else if(input2==='')
     {
       setValidate('Error : Num2 cannot be empty');
+      setShowResult(false)
       return false;
     }
     else{
       setValidate('Your Result is shown above');
+      setShowResult(true)
       return true;
     }
   }
