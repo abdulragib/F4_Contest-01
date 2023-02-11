@@ -1,0 +1,16 @@
+.Input-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input{
+    margin-top:10px;
+    width:20%;
+    border:1px solid white;
+}
+
+::placeholder{
+    color:white;
+}
+
