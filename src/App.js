@@ -19,7 +19,13 @@ function App() {
   };
 
   const validate = () => {
-    if (input1 === "") {
+    if(input1 ==="" && input2 ==="")
+    {
+       setValidate("Error : Num1 and Num2 cannot be empty");
+       setShowResult(false);
+       return false;
+    }
+    else if (input1 === "") {
       setValidate("Error : Num1 cannot be empty");
       setShowResult(false);
       return false;
